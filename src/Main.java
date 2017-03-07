@@ -1,7 +1,10 @@
 import com.mythread.BankCustomer;
 import com.mythread.DeadLock;
+import com.mythread.LiftOff;
 import com.mythread.ProductAndConsumer;
 import com.xiao.Person;
+
+import java.util.List;
 
 public class Main {
 
@@ -11,7 +14,8 @@ public class Main {
 
 //        BankCustomer.myTest(null);
 //        DeadLock.test();
-        ProductAndConsumer.test();
+//        ProductAndConsumer.test();
+        LiftOff.test();
 
 //        System.out.println("Hello World!");
 //
