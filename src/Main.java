@@ -1,21 +1,25 @@
-import com.mythread.BankCustomer;
-import com.mythread.DeadLock;
-import com.mythread.LiftOff;
-import com.mythread.ProductAndConsumer;
+import com.imooc.concurrent.Actor;
+
+import com.imooc.concurrent.Stage;
 import com.xiao.Person;
 
-import java.util.List;
+
 
 public class Main {
 
     static final  String appkey ="UniqueKey";
 
     public static void main(String[] args) {
+//        Actor.test();
+        Stage.test();
+    }
+
+    static void mainTest(){
 
 //        BankCustomer.myTest(null);
 //        DeadLock.test();
 //        ProductAndConsumer.test();
-        LiftOff.test();
+//        LiftOff.test();
 
 //        System.out.println("Hello World!");
 //
@@ -39,8 +43,6 @@ public class Main {
 //        System.out.println("引用传递重新赋值");
 //        assignReferenceValue(person);
 //        System.out.println(person);
-
-
     }
 
     static void changePrimitiveValue(int value){
