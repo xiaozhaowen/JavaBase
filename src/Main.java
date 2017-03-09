@@ -1,6 +1,7 @@
 import com.imooc.concurrent.Actor;
 
 import com.imooc.concurrent.Stage;
+import com.imooc.concurrent.transform.EnergyClient;
 import com.xiao.Person;
 
 
@@ -11,7 +12,8 @@ public class Main {
 
     public static void main(String[] args) {
 //        Actor.test();
-        Stage.test();
+//        Stage.test();
+        EnergyClient.test();
     }
 
     static void mainTest(){
